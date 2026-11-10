@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Findln_Academy_Tasks/" />
+  <Folder Name="/Findln_Academy_Tasks/Lesson2/">
+    <Project Path="Do-While/Do-While.csproj" />
+    <Project Path="For1/For1.csproj" />
+    <Project Path="For2/For2.csproj" />
+    <Project Path="While_and_Do-While/While_and_Do-While.csproj" />
+  </Folder>
+</Solution>
