@@ -1,4 +1,6 @@
-﻿namespace Do_While
+﻿using System.ComponentModel.Design;
+
+namespace Do_While
 {
     internal class Program
     {
@@ -9,129 +11,124 @@
 
             #region Task 2 
 
-            //int totalNumbers = 10;
-            //int count = 0;
-            //double positiveCount = 0;
-            //double negativeCount = 0;
-            //double zeroCount = 0;
+            //var musbet = 0;
+            //var menfi = 0;
+            //var sifir = 0;
 
-            //Console.WriteLine("Zehmet olmasa 10 tam eded daxil edin:");
-            //do
+            //for (int i = 0; i <= 10;  i++)
             //{
-            //    Console.Write((count + 1) + "-ci ededi daxil edin: ");
-            //    int num = int.Parse(Console.ReadLine());
-            //    if (num > 0)
+            //    Console.Write("eded daxil edin");
+            //    int eded = int.Parse(Console.ReadLine());
+            //    if (eded == 0)
             //    {
-            //        positiveCount++;
+            //        sifir++;
             //    }
-            //    else if (num < 0)
+
+            //    else if (eded > 0)
             //    {
-            //        negativeCount++;
+            //        menfi++;
             //    }
+
             //    else
             //    {
-            //        zeroCount++;
+            //        menfi++;
             //    }
+            //}
 
-            //    count++;
+            //double menfifaiz = menfi * 100 / 10;
+            //double musbetfaiz = musbet * 100 / 10;
+            //double sifirfaiz = sifir * 100 / 10;
 
-            //} while (count < totalNumbers);
-            //double positivePercent = (positiveCount / totalNumbers) * 100;
-            //double negativePercent = (negativeCount / totalNumbers) * 100;
-            //double zeroPercent = (zeroCount / totalNumbers) * 100;
-            //Console.WriteLine("Musbet ededlerin faizi: " + positivePercent + "%");
-            //Console.WriteLine("Menfi ededlerin faizi: " + negativePercent + "%");
-            //Console.WriteLine("Sifirlarin faizi: " + zeroPercent + "%");
+            //Console.WriteLine("Müsbət ədədlərin faizi: " + menfifaiz + "%");
+            //Console.WriteLine("Mənfi ədədlərin faizi: " + musbetfaiz + "%");
+            //Console.WriteLine("Sıfırların faizi: " + sifirfaiz + "%");
+
             #endregion
 
             #region Task 3
-            //int a = 0;
-            //double b = 0;
-            //double c = 0;
+            //int cut = 0;
+            //int tek = 0;
 
-            //do
+            //for (int i = 1; i <= 10; i++)
             //{
-            //    Console.Write("eded daxil et: ");
-            //    int d = int.Parse(Console.ReadLine());
+            //    Console.Write("eded daxil ele");
+            //    int eded = int.Parse(Console.ReadLine());
 
-            //    if (d % 2 == 0)
+            //    if (eded % 2 == 0)
             //    {
-            //        b++;
-            //    }
-            //    else
-            //    {
-            //        c++;
+            //        cut++;
             //    }
 
-            //    a++;
+            //    else if (eded % 2 == 1)
+            //    {
+            //        tek++;
+            //    }
 
-            //} while (a < 10);
+            //    double cutfaiz = cut * 100 / 10;
+            //    double tekfaiz = tek * 100 / 10;
 
-            //double e = (b / 10) * 100;
-            //double f = (c / 10) * 100;
-
-            //Console.WriteLine("cut ededlerin faizi: " + e + "%");
-            //Console.WriteLine("tek ededlerin faizi: " + f + "%");
+            //    //Console.WriteLine("Müsbət ədədlərin faizi: " + cutfaiz + "%");
+            //    //Console.WriteLine("Mənfi ədədlərin faizi: " + tekfaiz + "%");
+               
+            //}
             #endregion
 
             #region Task 4
-            //Console.Write("eded daxil et: ");
-            //int a = int.Parse(Console.ReadLine());
-            //int b = a;
-            //int c = 0;
-
-            //do
-            //{
-            //    int d = b % 10;
-            //    c = (c * 10) + d;
-            //    b = b / 10;
-
-            //} while (b > 0);
-
-            //if (a == c)
-            //{
-            //    Console.WriteLine("palindromdur");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("palindrom deyil");
-            //}
+   
             #endregion
 
             #region Task 5 Ede bilmedim
             #endregion
 
             #region Task 6
-            //int a = 2;
-
-            //do
+      
+            //for (int i = 2; i<=100; i++)
             //{
-            //    int b = 2;
-            //    int c = 1;
+            //    bool sade = true;
 
-            //    do
+            //    for (int j = 2; j < i; j++)
             //    {
-            //        if (a % b == 0)
-            //        {
-            //            c = 0;
-            //        }
-            //        b++;
-
-            //    } while (b < a);
-
-            //    if (c == 1)
-            //    {
-            //        Console.WriteLine(a);
+            //        if (i %  j == 0)
+            //            sade = false;
+            //        break;
             //    }
 
-            //    a++;
-
-            //} while (a <= 100);
+            //    if (sade)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+                
+            //}
             #endregion
 
-            #region Task 7 (((
+            #region Task 77 (((
 
             #endregion
+
+
+
+
+
+            // 1-50 kimi ancag cut olan ededler ekrana cixmaliddir lakin 20 ve 26 cixmammalidir 
+
+            int cut = 0;
+          
+            for (int i = 1; i<=50; i++)
+            {
+                bool cuteded = true;
+               
+                if (i % 2 == 0)
+                {
+                    cut++;
+                }
+            }
+            
+
+
+            
+
+
+
 
 
         }
