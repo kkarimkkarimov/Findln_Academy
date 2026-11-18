@@ -94,6 +94,7 @@ namespace Do_While
             #region Task 4 
             //İstifadəçinin daxil etdiyi mənfi olmayan tam ədədin palindrom olub olmadığını yoxlayın.
             //Məsələn, 12321 palindromdur.
+
             //Console.Write("Eded ddaxil et");
             //    int eded = int.Parse(Console.ReadLine());
             //int ilkeded=eded;
